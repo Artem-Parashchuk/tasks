@@ -1,0 +1,20 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+   background-color: rgb(241, 241, 241);
+}
+section {
+    padding: 0 25px;
+}
+p {
+    font-size: 20px;
+    margin: 0;
+}
+
+pre {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+   background-color: rgb(226 249 255);
+   border-radius: 30px;
+}
