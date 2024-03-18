@@ -211,3 +211,59 @@
 // for(let i = 0; i < 10; i++) {
 //     arr.push(Math.round(Math.random() * 10))
 // }
+
+// Задача 
+// Дана строка. Проверьте, заканчивается ли эта строка на '.html', если нет - добавте.
+// let str = 'index'
+// let res = ''
+
+// if(!str.endsWith('.html')) {
+//   let strInArr = str.split('')
+//   strInArr.push('.html')
+
+//   res = strInArr.join('')
+// }
+
+// Задача 
+// Дана строка '1-2-3-4-5'. Поменяйте все дефисы на точки.
+// let str = '1-2-3-4-5'
+// while(str.includes('-')) {
+//   str =  str.replace('-', '.')
+// }
+// console.log(str)
+
+// Задача
+// Дана строка '1-2-3-4-5'. Запишите каждое число этой строки в отдельный элемент массива.
+// let str = '1-2-3-4-5'
+// let res = []
+// for(let i = 0; i < str.length; i++) {
+//     let isNumber = Number(str[i]) 
+//     if(isNumber) {
+//         res.push(isNumber)
+//     }
+// }
+// console.log(res)
+
+
+// Задача
+// Сделайте функцию, которая параметром будет принимать масив строк и делать заглавной первую букву каждого слова этого масива.
+// let arr = ['asd', 'fasd', 'gfa', 'sdg'];
+// function foo(str) {
+//     let res = []
+//     for (let key of str) {
+
+//         res.push(key[0].toUpperCase() + key.slice(1))
+//     }
+//     return res
+// }
+// console.log(foo(arr))
+
+
+
+let func1 = function() {
+    return 1
+}
+let func2 = function() {
+    return 2
+}
+console.log(func1() + func2())
