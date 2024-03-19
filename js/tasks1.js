@@ -257,13 +257,14 @@
 //     return res
 // }
 // console.log(foo(arr))
+function changeEven(numbers, value) {
+    let arr = []
+    numbers.forEach((e) => {
+      if(e % 2 === 0) {
+        arr.push(e + value)
+      }
+    })
+    return arr;
+  }
 
-
-
-let func1 = function() {
-    return 1
-}
-let func2 = function() {
-    return 2
-}
-console.log(func1() + func2())
+  console.log(changeEven([17, 24, 68, 31, 42], 100))
